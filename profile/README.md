@@ -9,4 +9,5 @@
 
 ### 📅 프로젝트 일정
 
-[https://github.com/orgs/team-rakuraku/projects/1/views/3](https://github.com/orgs/team-rakuraku/projects/1/views/3)
+[https://github.com/orgs/team-rakuraku/projects/1/views/8](https://github.com/orgs/team-rakuraku/projects/1/views/8)
+
