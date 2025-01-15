@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: 📆 일정 관리 이슈
-    url: https://github.com/your-repo/issues/new?template=schedule_issue_template.md
+    url: https://github.com/team-rakuraku/.github/blob/main/.github/ISSUE_TEMPLATE/issue-template.md
     about: 프로젝트 일정 관리를 위한 이슈를 생성합니다.
