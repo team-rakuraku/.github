@@ -39,17 +39,13 @@
     "chatRooms": [
       {
         "roomId": "room-67890",
-        "roomName": "Team Chat",
         "lastMessage": "See you tomorrow!",
         "lastMessageTimestamp": "2025-01-18T12:00:00Z",
-        "unreadMessages": 2
       },
       {
         "roomId": "room-54321",
-        "roomName": "Project Discussion",
         "lastMessage": "Meeting at 3 PM.",
         "lastMessageTimestamp": "2025-01-18T11:00:00Z",
-        "unreadMessages": 5
       }
     ]
   }

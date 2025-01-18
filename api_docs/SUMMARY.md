@@ -6,7 +6,4 @@
 
 * [Authentication](api-docs/authentication.md)
 * [Message](api-docs/message.md)
-
-***
-
-* [Chat Room List](chat-room-list.md)
+* [Chat Room List](api-docs/chat-room-list.md)
