@@ -12,11 +12,11 @@
 
 **Headers**
 
-| Name          | Value              |
-| ------------- | ------------------ |
-| Content-Type  | `application/json` |
-| Authorization | { `access token }` |
-| App-Id        | `{ app id }`       |
+| Name            | Value              |
+| --------------- | ------------------ |
+| `Content-Type`  | `application/json` |
+| `Authorization` | { `access token }` |
+| `App-Id`        | `{ app id }`       |
 
 **Body**
 
