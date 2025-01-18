@@ -15,7 +15,7 @@
 | Name            | Value              |
 | --------------- | ------------------ |
 | `Content-Type`  | `application/json` |
-| `Authorization` | { `access token }` |
+| `Authorization` | `{ access token }` |
 | `App-Id`        | `{ app id }`       |
 
 **Body**
