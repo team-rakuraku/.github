@@ -7,7 +7,13 @@
 
 <br/>
 
-### 📅 프로젝트 일정
+<br/>
 
-[https://github.com/orgs/team-rakuraku/projects/1/views/8](https://github.com/orgs/team-rakuraku/projects/1/views/8)
+### 📖 API 문서
+[Rakuraku API 문서](https://rakuraku.gitbook.io/rakuraku-docs)
+
+<br/>
+
+### 📅 프로젝트 일정
+[GitHub Projects](https://github.com/orgs/team-rakuraku/projects/1/views/8)
 
