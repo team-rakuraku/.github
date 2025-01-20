@@ -58,66 +58,6 @@
 
 
 
-## Send Media Message
-
-사용자가 S3에 업로드한 미디어 URL과 함께 메시지를 채널에 실시간으로 전송합니다.
-
-
-
-**Event**
-
-* **Event Name:** `send_media_message`
-
-
-
-**Header**
-
-| Name            | Type               | Descriptoin |
-| --------------- | ------------------ | ----------- |
-| `App-Id`        | `{ app id }`       |             |
-| `Authorization` | `{ access token }` |             |
-
-**Payload**
-
-| Name        | Type   | Description                           |
-| ----------- | ------ | ------------------------------------- |
-| `userId`    | string | 메시지를 보내는 사용자 ID                       |
-| `channelId` | number | 메시지가 전송될 채널 ID                        |
-| `mediaUrl`  | string | S3에 업로드된 미디어의 URL                     |
-| `mediaType` | string | 미디어 파일 형식 (`image/jpeg`, `video/mp4`) |
-| `caption`   | string | 미디어에 대한 추가 설명 (선택)                    |
-
-**Response**
-
-{% tabs %}
-{% tab title="200" %}
-```json
-{
-  "event": "media_message_sent",
-  "data": {
-    "status": "sent",
-    "messageId": "msg-67890",
-    "mediaUrl": "https://cdn.example.com/uploads/image12345.jpg",
-    "mediaType": "image/jpeg",
-    "timestamp": "2025-01-18T12:10:00Z"
-  }
-}
-
-```
-{% endtab %}
-
-{% tab title="400" %}
-```json
-{
-  "error": "Invalid request"
-}
-```
-{% endtab %}
-{% endtabs %}
-
-***
-
-
 
 ## Retrieve Messages
 
