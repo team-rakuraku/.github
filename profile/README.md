@@ -17,3 +17,7 @@
 ### 📅 프로젝트 일정
 [GitHub Projects](https://github.com/orgs/team-rakuraku/projects/1/views/8)
 
+<br/>
+
+### 🏛️ 프로젝트 아키텍쳐
+[draw.io](https://github.com/team-rakuraku/.github/blob/main/architecture/infra.md)
