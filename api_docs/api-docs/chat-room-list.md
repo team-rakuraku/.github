@@ -10,7 +10,7 @@ POST /chatrooms
 #### Headers
 | Key           | Value            | Description |
 |--------------|----------------|-------------|
-| Authorization | Bearer {token}  | JWT access token |
+| Authorization | {token}  | JWT access token |
 | App-Id       | {app_id}        | Unique identifier for the application |
 
 #### Request Body
