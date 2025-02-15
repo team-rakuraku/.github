@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Overview](README.md)
+* [RakuRaku Chat](README.md)
+  * [Overview](readme/overview.md)
   * [Frontend Architecture](readme/frontend-architecture.md)
   * [Backend Architecture](readme/backend-architecture.md)
   * [Infra Architecture](readme/infra-architecture.md)
