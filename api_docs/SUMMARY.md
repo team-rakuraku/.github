@@ -1,6 +1,6 @@
 # Table of contents
 
-* [RakuRaku Chat](README.md)
+* [Welcome to RakuRaku Chat](README.md)
   * [Overview](readme/overview.md)
   * [Frontend Architecture](readme/frontend-architecture.md)
   * [Backend Architecture](readme/backend-architecture.md)
