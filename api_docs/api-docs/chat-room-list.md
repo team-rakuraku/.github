@@ -1,66 +1,55 @@
 # Chat Room List
 
-***
+## Create Chat Room
 
-## Retrieve Chat Room List
+### Endpoint
+```http
+POST /chatrooms
+```
 
-특정 사용자가 참여 중인 채팅방 목록을 조회합니다.
+### Headers
+| Key           | Value            |
+|--------------|----------------|
+| Authorization | Bearer {token}  |
+| App-Id       | {app_id}        |
 
-
-
-**Event**
-
-* **Event Name:** `retrieve_chat_rooms`
-
-
-
-**Header**
-
-| Name            | Type               | Descriptoin |
-| --------------- | ------------------ | ----------- |
-| `App-Id`        | `{ app id }`       |             |
-| `Authorization` | `{ access token }` |             |
-
-**Payload**
-
-| Name     | Type   | Description     |
-| -------- | ------ | --------------- |
-| `userId` | string | 메시지를 보내는 사용자 ID |
-
-**Response**
-
-{% tabs %}
-{% tab title="200" %}
+### Request Body
 ```json
 {
-  "event": "chat_rooms_retred",
-  "data": {
-    "userId": "user-12345",
-    "chatRooms": [
-      {
-        "roomId": "room-67890",
-        "lastMessage": "See you tomorrow!",
-        "lastMessageTimestamp": "2025-01-18T12:00:00Z",
-      },
-      {
-        "roomId": "room-54321",
-        "lastMessage": "Meeting at 3 PM.",
-        "lastMessageTimestamp": "2025-01-18T11:00:00Z",
-      }
-    ]
-  }
+  "userId": "string",
+  "name": "string"
 }
-
 ```
-{% endtab %}
 
-{% tab title="400" %}
+### Response
 ```json
 {
-  "error": "Invalid request"
+  "status": 201,
+  "message": "방 생성 성공"
 }
 ```
-{% endtab %}
-{% endtabs %}
 
-***
+
+<br/>
+
+## Get Chat Room List
+
+### Endpoint
+```http
+GET /chatrooms?page={page}&size={size}
+```
+
+### Response
+```json
+{
+  "status": 200,
+  "message": "방 목록 가져오기 성공",
+  "data": [
+    {
+      "roomId": "long",
+      "lastMessage": "string",
+      "lastMessageTimestamp": "date"
+    }
+  ]
+}
+```
