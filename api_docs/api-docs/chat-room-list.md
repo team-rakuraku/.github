@@ -1,19 +1,19 @@
-# Chat Room List
+## Chat Room List
 
-## Create Chat Room
+### Create Chat Room
 
-### Endpoint
+#### Endpoint
 ```http
 POST /chatrooms
 ```
 
-### Headers
-| Key           | Value            |
-|--------------|----------------|
-| Authorization | {token}  |
-| App-Id       | {app_id}        |
+#### Headers
+| Key           | Value            | Description |
+|--------------|----------------|-------------|
+| Authorization | Bearer {token}  | JWT access token |
+| App-Id       | {app_id}        | Unique identifier for the application |
 
-### Request Body
+#### Request Body
 ```json
 {
   "userId": "string",
@@ -21,29 +21,29 @@ POST /chatrooms
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "status": 201,
-  "message": "방 생성 성공"
+  "message": "Chat room created successfully"
 }
 ```
 
-
+<br/>
 <br/>
 
-## Get Chat Room List
+### Get Chat Room List
 
-### Endpoint
+#### Endpoint
 ```http
 GET /chatrooms?page={page}&size={size}
 ```
 
-### Response
+#### Response
 ```json
 {
   "status": 200,
-  "message": "방 목록 가져오기 성공",
+  "message": "Chat room list retrieved successfully",
   "data": [
     {
       "roomId": "long",
@@ -53,3 +53,4 @@ GET /chatrooms?page={page}&size={size}
   ]
 }
 ```
+
