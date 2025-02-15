@@ -1,10 +1,16 @@
 # Table of contents
 
 * [Overview](README.md)
-
-## API Docs
-
-* [Authentication](api-docs/authentication.md)
-* [Message](api-docs/message.md)
-* [Chat Room List](api-docs/chat-room-list.md)
-* [Error Handling](api-docs/error-handling.md)
+  * [Frontend Architecture](readme/frontend-architecture.md)
+  * [Backend Architecture](readme/backend-architecture.md)
+  * [Infra Architecture](readme/infra-architecture.md)
+  * [ERD Structure](readme/erd-structure.md)
+* [Tech Blog](tech-blog/README.md)
+  * [Frontend](tech-blog/frontend.md)
+  * [Backend](tech-blog/backend.md)
+  * [Infra](tech-blog/infra.md)
+* [API DOCS](api-docs/README.md)
+  * [Authentication](api-docs/authentication.md)
+  * [Message](api-docs/message.md)
+  * [Chat Room List](api-docs/chat-room-list.md)
+  * [Error Handling](api-docs/error-handling.md)
