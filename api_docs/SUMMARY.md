@@ -7,4 +7,4 @@
 * [Authentication](api-docs/authentication.md)
 * [Message](api-docs/message.md)
 * [Chat Room List](api-docs/chat-room-list.md)
-* [Media Upload Management](api-docs/media-upload-management.md)
+* [Error Handling](api-docs/error-handling.md)
