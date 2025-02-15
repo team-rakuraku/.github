@@ -1,19 +1,19 @@
-# Authentication
+## Authentication
 
-## Login
+### Login
 
-### Endpoint
+#### Endpoint
 ```http
 POST /auth/login
 ```
 
-### Headers
-| Key           | Value            |
-|--------------|----------------|
-| Authorization | {token}     |
-| App-Id       | {app_id}        |
+#### Headers
+| Key           | Value            | Description |
+|--------------|----------------|-------------|
+| Authorization |  {token}  | JWT access token |
+| App-Id       | {app_id}        | Unique identifier for the application |
 
-### Request Body
+#### Request Body
 ```json
 {
   "userId": "string",
@@ -22,7 +22,7 @@ POST /auth/login
 }
 ```
 
-### Response
+#### Response
 ```json
 {
   "status": 200,
@@ -31,4 +31,3 @@ POST /auth/login
   "expiresAt": "date"
 }
 ```
-
